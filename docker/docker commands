@@ -1,1 +1,7 @@
 docker build -t django_blog .
+
+sudo docker-compose run webapp django-admin.py startproject django_blog .
+
+sudo docker-compose run webapp django-admin.py startapp blog
+
+sudo docker-compose up
